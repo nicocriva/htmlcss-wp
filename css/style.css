@@ -47,6 +47,7 @@ section:first-child{
     margin-bottom: 30px;
     background-image: url(../img/banner.jpg);
     background-position-y: center;
+    background-position-x: center;
     border-radius: 15px;
 }
 
@@ -59,7 +60,7 @@ section:first-child{
 
 .first-section-text{
     color: white;
-    padding: 250px 200px 60px 30px;
+    padding: 300px 200px 60px 30px;
     margin-right: 270px;
 
 }
@@ -96,16 +97,41 @@ section:last-child{
 #second-section-text{
     color: #ababab;
 }
-
+ /* colonne laterali */
 .aside{
     width: 20%;
     float: left;
+    border-radius: 15px;
 }
 
+/* colonna laterale sx */
+.left-aside-img{
+    width: 100%;
+}
+
+.aside img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+aside h4{
+    margin-bottom: 10px;
+}
+
+/* sezione centrale */
 .central-section{
     width: calc(60% - 50px);
     float: left;
     margin: 0 25px;
+}
+
+.central-section img{
+    width: 100%;
+    
+}
+
+.central-section-img{
+    height: 300px;
 }
 
 /*footer*/
@@ -136,15 +162,15 @@ footer{
     height: 80px;
 } */
 
-.aside{
+/* .aside{
     height: 500px;
     background-color: #abcfe7;
-}
+} */
 
-.central-section{
+/* .central-section{
     background-color: #abcfe7;
     height: 500px;
-}
+} */
 
 footer{
     background-color: #8701fe;
