@@ -65,15 +65,10 @@ section:first-child{
 }
 
 .first-section-title{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 /*second section*/
-
-section:last-child{
-    margin-bottom: 10px;
-    padding-bottom: 25px;
-}
 
 .second-section::after{
     content:'';
@@ -81,9 +76,25 @@ section:last-child{
     clear: both;
 }
 
-.second-section-top{
-    height: 80px;
+section:last-child{
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+#second-section-top{
     margin-bottom: 25px;
+    line-height: 20px;
+}
+
+#second-section-title{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#second-section-text{
+    color: #ababab;
 }
 
 .aside{
@@ -116,13 +127,14 @@ footer{
     height: 450px;
 } */
 
-section:last-child{
+/* section:last-child{
     background-color: #0088f7;
-}
+} */
 
-.second-section-top{
+/* .second-section-top{
     background-color: #abcfe7;
-}
+    height: 80px;
+} */
 
 .aside{
     height: 500px;
