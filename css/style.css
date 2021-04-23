@@ -37,6 +37,7 @@ li a{
     margin: 0 8px;
     line-height: 80px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 
@@ -44,8 +45,29 @@ li a{
 
 section:first-child{
     margin-bottom: 30px;
+    background-image: url(../img/banner.jpg);
+    background-position-y: center;
+    border-radius: 15px;
 }
- 
+
+.shadow{
+    background-color: rgba(0, 0,0, 0.2);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.first-section-text{
+    color: white;
+    padding: 250px 200px 60px 30px;
+    margin-right: 270px;
+
+}
+
+.first-section-title{
+    font-size: 30px;
+}
+
 /*second section*/
 
 section:last-child{
@@ -89,10 +111,10 @@ footer{
     background-color: #e579e6;
 }  */
 
-section:first-child{
+/* section:first-child{
     background-color: #e1d67a;
     height: 450px;
-}
+} */
 
 section:last-child{
     background-color: #0088f7;
