@@ -9,6 +9,7 @@
     width: 80%;
     margin: auto;
     margin-bottom: 25px;
+    margin-top: 70px;
 }
 
 /*header*/
@@ -16,6 +17,7 @@
 header{
     height: 130px;
     margin-bottom: 30px;
+    padding-left: 20px;
 }
 
 header img{
@@ -52,15 +54,16 @@ li a{
 
 section:first-child{
     margin-bottom: 30px;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/banner-3.jpg);
     background-position-y: center;
     background-position-x: center;
+    background-size: cover;
     border-radius: 15px;
 }
 
 .first-section-text{
     color: white;
-    padding: 300px 200px 60px 30px;
+    padding: 300px 340px 60px 30px;
     margin-right: 270px;
 }
 
