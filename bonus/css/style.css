@@ -79,6 +79,7 @@ section:first-child{
     clear: both;
 }
 
+
 section:last-child{
     margin-bottom: 10px;
     padding-bottom: 25px;
@@ -86,13 +87,14 @@ section:last-child{
 
 #second-section-top{
     margin-bottom: 25px;
+    margin-left: 25px;
     line-height: 20px;
 }
 
 #second-section-title{
     font-size: 35px;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
@@ -102,61 +104,98 @@ section:last-child{
 
 
 /* immagini seconda sezione */
-.left-aside-img, .central-section-img, .right-aside-img{
+.left-aside-img, .central-section-img, .right-aside-img, .second-left-aside-img, .second-central-section-img, .second-right-aside-img{
     background-size: cover;
     width: 100%;
-    height: 210px;
+    height: 260px;
     background-position: center;
 }
 
 .left-aside-img{
     background-image: url(../img/img-1.jpg);
+    border-radius: 15px;
 }
 
 .central-section-img{
-    background-image: url(../img/banner-2.jpg);
+    background-image: url(../img/img-2.jpg);
+    border-radius: 15px;
 }
 
 .right-aside-img{
     background-image: url(../img/img-3.jpg);
+    border-radius: 15px;
+}
+
+.second-left-aside-img{
+    background-image: url(../img/img-4.jpg);
+}
+
+.second-central-section-img{
+    background-image: url(../img/img-5.jpg);
+}
+
+.second-right-aside-img{
+    background-image: url(../img/img-6.jpg);
 }
  
 /* testi seconda sezione */
-h4{
-    margin:25px 0px 10px 0;
+h3{
+    margin:25px 20px 10px 20px;
 }
 
 .aside-text, .central-section-text{
     color: grey;
+    margin: 20px 20px 20px 20px;
+}
+
+.generalities{
+    height: 35px;
+    font-size: 14px;
+}
+
+.generalities>*{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px;
+}
+
+.generalities-img{
+    background-image: url(../img/prince.jpg);
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50px;
+}
+
+.generalities-date{
+    margin: 0;
+    padding-right: 10px;
+    border-right: 1px solid lightgrey;
 }
 
 /* seconda sezione - colonne laterali */
 .aside{
-   width: 20%;
+   width: calc(33% - 16.6px);
    float: left;
    border-radius: 15px;
 }
 
 /* seconda sezione - sezione centrale */
 .central-section{
-    width: calc(60% - 50px);
-    float: left;
-    margin: 0 25px;
+   width: calc(33% - 16.6px);
+   float: left;
+   margin: 0px 25px;
+   border-radius: 15px;
 }
 
-/*footer*/
-footer{
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    font-weight: bold;
+
+
+.second{
+    margin-top: 40px;
 }
 
-.heart::after{
-    content: '\2665';
-    color: red;
-    font-size: 25px;
-  }
+
 
 
 
